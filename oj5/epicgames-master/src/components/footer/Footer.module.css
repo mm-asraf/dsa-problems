@@ -1,0 +1,80 @@
+.footer{
+    width: 75%;
+    /* border: 2px solid white; */
+    margin-left: 5%;
+    overflow-x: hidden;
+}
+.icon{
+
+}
+.icon > img{
+    width: 2%;
+    margin: 1%;
+    cursor: pointer;
+    filter: invert(1);
+    border-radius: 10px;
+}
+.icon > img:nth-child(4){
+    margin-left: 50%;
+    width: 5%;
+    cursor: pointer;
+    position: absolute;
+}
+.icon > img:nth-child(4):hover{
+    filter: invert(1);
+}
+
+.resources {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.resources >div{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+.resources>div>p{
+    margin: 2%;
+    margin-left: 2%;
+    cursor: pointer;
+    width: 200px;
+}
+.resources>div>p:hover{
+    color: gray;
+}
+.cp{
+    /* width: 60%; */
+    width: 100%;
+    margin-top: 5%;
+    color: white;
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+    margin-left: -2%;
+}
+.terms>p{
+    margin: 2%;
+    color: white;
+}
+.termsIcon{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+}
+.termsIcon>img{
+    height: 2%;
+    width:2%;
+    margin-top: -3%;
+    cursor: pointer;
+}
+.termsIcon>img:nth-child(1){
+    margin-right: 24%;
+
+    filter: invert(1);
+}
+.termsIcon>img:nth-child(2){
+    margin-right: 2%;
+
+}

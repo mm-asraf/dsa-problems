@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.container>div:nth-child(1){
+    margin-left: 15%;
+}
+.container>div:nth-child(2){
+    margin-left: 10%;
+}

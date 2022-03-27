@@ -1,0 +1,77 @@
+.container{
+    width: 72%;
+    margin-left: 12%;
+}
+
+.gameonSale{
+    color: white;
+    margin-top: 2%;
+    margin-left: 6%;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+
+
+}
+.slider{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 0px 0px 38px;
+    margin: 10px;
+    position: relative;
+    width: 320px;
+    /* width: 280px; */
+    height: 500px;
+    border-radius: 0px 0px 12px 12px;
+    /* box-shadow:  0 1px 6px rgba(219, 211, 211, 0.12), 0 1px 4px rgba(231, 216, 216, 0.12); */
+     border: 2px solid white;
+}
+.pic{
+    /* width: 250px; */
+    width: 350px;
+}
+.pic > img{
+     position: absolute;
+     /* width: 250px; */
+     width: 315px;
+     /* width: fit-content; */
+     height: 400px;
+    /* height: 100px; */
+    /* width: 100%; */
+} 
+
+.title{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 400px;
+}
+
+.dec{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.dec>p:nth-child(1){
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+.dec>p:nth-child(2){
+    color: white;
+    padding: 10px;
+    /* background-color: blue; */
+    width: 75px;
+    /* border-radius: 5px; */
+    text-decoration: line-through;
+}
+
+.dec>p:nth-child(3){
+    color: white;
+    padding: 10px;
+    width: 75px;
+
+}

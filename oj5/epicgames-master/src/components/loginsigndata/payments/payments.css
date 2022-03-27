@@ -1,0 +1,33 @@
+main {
+  background-color: rgb(228, 243, 243);
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  height: 700px;
+  margin-left: 40%;
+}
+h2 {
+  padding-top: 10%;
+}
+input {
+  margin-top: 10%;
+}
+#cardnumber {
+  color: #000;
+
+  width: 90%;
+}
+#year {
+  width: 90%;
+}
+#cvv {
+  width: 90%;
+}
+#pay {
+  width: 90%;
+  margin-top: 15%;
+  height: 10%;
+}
+#month {
+  width: 90%;
+}

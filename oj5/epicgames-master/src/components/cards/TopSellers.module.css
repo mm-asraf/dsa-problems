@@ -1,0 +1,46 @@
+.main{
+    margin-left: 15%;
+    margin-top: 5%;
+    /* border: 2px solid white; */
+    width: 300px;
+}
+.main>p:nth-child(1){
+    color: white;
+    font-size: 1.5rem;
+}
+.main>p:nth-child(2){
+    margin-left: 10%;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    width: 120px;
+    cursor: pointer;
+    margin-top: -2%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    cursor: pointer;
+
+
+}
+.pic>img{
+    width: 100px;
+    height: 100px;
+}
+.title{
+    color: white;
+    margin-left: 2%;
+    width: 200px;
+    margin-top: 3%;
+}
+.amount>p:nth-child(1){
+    padding: 10px;
+    color: white;
+    /* background-color: blue; */
+    border-radius: 10px;
+    margin-top: 5%;
+
+}

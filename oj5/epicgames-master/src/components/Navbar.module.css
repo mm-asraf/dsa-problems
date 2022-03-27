@@ -1,0 +1,134 @@
+.container{
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid white; */
+    background-color: #424242;
+}
+
+.leftNav{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.leftNav > img{
+    /* height: 5%; */
+    height: 100%;
+
+    width: 5%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.leftNav > P{
+    font-size: 1.5rem;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.leftNav > p:hover{
+    /* color: red; */
+    border-bottom: 5px solid blue;
+}
+
+.rightNav {
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-right: 50px; */
+}
+.rightNav > img{
+    height: 60%;
+    width: 6%;
+    margin-left: 2%;
+    margin-top: 2%;
+    
+    filter: invert(1);
+
+    cursor: pointer;
+
+}
+.rightNav>:nth-child(4){
+    margin-right: 50px;
+}
+.rightNav > button {
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+.rightNav > button:nth-child(1){
+    background-color: blue;
+    color: white;
+    width: 100px;
+    /* margin-left: 200px; */
+    /* margin-right: 20px; */
+
+}
+.rightNav > button:nth-child(2){
+    background-color: transparent;
+    color: white;
+    /* margin-left:1 ; */
+
+}
+/*     2nd Nav Bar */
+
+.navBar2{
+    
+    background: #212121;
+    height: 200px;
+
+}
+
+.srh{
+    display: flex;
+    flex-direction: row;
+    /* color: #757575; */
+    color: #BDBDBD;
+}
+.srhLeft{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    padding: 10px;
+    /* background-color: ; */
+    background-color: #424242;
+    width: 12%;
+    border-radius:50px ;
+    margin-right: 50px;
+    height: 40px;
+    margin-top: 2%;
+    
+}
+
+.srhLeft > img{
+    height: 100%;
+    height: 40px;
+    width: 20%;
+    filter: invert(1);
+    margin-top: -2%;
+    
+}
+.srhLeft >p{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: white;
+}
+
+
+.srhRight{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.srhRight >p{
+    margin-left: 30%;
+}
+.srhRight>p:hover{
+    color: white;
+}

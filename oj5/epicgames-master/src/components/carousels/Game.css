@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gameContainer{
+    margin-left: 15%;
+    width: 50%;
+    margin-top: 10%;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    width: 50vh;
+}
+
+
+.carousel .slide{
+    /* height: 50vh; */
+    /* width: 700px; */
+    /* border: 15px solid green; */
+    /* width: 50vh !important; */
+    height: 90vh;
+}
+
+
+
+
+.carousel .slide img{
+    height: 100vh;
+    width: 100%;
+    /* border: 10px solid green; */
+}
+
+
+/* .image >p{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 100px;
+} */
+
+
+.legend{
+    background-color: none !important;
+    position: absolute;
+    margin-top: 300px;
+}
+.legend >p:nth-child(1){
+    position: absolute;
+    margin-top: -200px;
+color: white;
+font-size: 1rem;
+font-weight: 600;
+}
+
+.legend > p:nth-child(2){
+    position: absolute;
+    margin-top: -170px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 50%;
+    margin-left: -2%;
+}
+
+.legend > p:nth-child(3){
+    position: absolute;
+    margin-top: -140px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 50%;
+    margin-left: -4%;
+}
+.legend > p:nth-child(4){
+    position: absolute;
+    margin-top: -70px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 50%;
+    margin-left: -16%;
+}
+.legend > button:nth-child(5){
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: none;
+    height: 50px;
+    width: 200px;
+    margin-left: -370px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.legend > button:nth-child(6){
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: -140px;
+    cursor: pointer;
+}
+
+.rainbow>p:nth-child(2){
+    /* color: red; */
+    margin-left: -25px;
+
+}
+.rainbow>p:nth-child(3){
+    /* color: red; */
+    margin-left: 0px;
+
+}
+
+ .dying>p:nth-child(1){
+    /* color: black; */
+}
+
+.dying>p:nth-child(2){
+    /* color: black; */
+    margin-left: -5%;
+}
+.dying>p:nth-child(3){
+    /* color: black; */
+    margin-left: -25px;
+
+}
+.dying>p:nth-child(4){
+    /* color: black; */
+    /* margin-left: 1%; */
+    margin-left: -75px;
+    /* color: red; */
+    margin-top: -100px;
+}
+
+.dying>p:nth-child(5){
+    /* color: red; */
+    margin-top: -50px;
+    margin-left: -650px;
+}
+.dying>button:nth-child(6){
+
+    /* color: black; */
+    /* background-color: white; */
+    /* margin-left: -500px; */
+    background-color: white;
+    color: black;
+    margin-left: -300px;
+    margin-top: 20px;
+} 
+
+.dying>button:nth-child(7){
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 30px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.fortnite>p:nth-child(1){
+    margin-left: 20px;
+}
+.fortnite>button:nth-child(4){
+    position: absolute;
+    margin-left: -45%;
+    height: 40px;
+    width: 200px;
+    margin-top: -2%;
+    cursor: pointer;
+    /* color: red; */
+}
+
+.sifu >p:nth-child(2){
+    margin-left: -50px;
+
+}
+
+.sifu >p:nth-child(3){
+    margin-left: -25px;
+
+}
+.sifu >p:nth-child(4){
+    margin-top: -110px;
+    margin-left:-165px;
+
+}
+.sifu >p:nth-child(5){
+    margin-left: -650px;
+    margin-top: -7%;
+
+}
+.sifu >button:nth-child(6){
+    /* color: red; */
+    position: absolute;
+    width: 220px;
+    margin-left: -40%;
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+
+}
+.sifu>button:nth-child(7){
+    margin-top: 4%;
+    font-size: 1.2rem;
+    margin-left: 1%;
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+
+.fantasy>p:nth-child(1){
+    margin-top: -40%;
+}
+.fantasy>p:nth-child(2){
+    margin-top: -36%;
+    margin-left: -4.5%;
+}
+.fantasy>p:nth-child(3){
+    margin-top: -32%;
+}
+.fantasy>p:nth-child(4){
+    margin-top: -28%;
+    margin-left: -6.5%;
+}
+.fantasy>p:nth-child(5){
+    margin-top: -24%;
+    margin-left: -62%;
+    font-size: 1.2rem;
+}
+.fantasy>p:nth-child(6){
+    margin-top: 7%;
+    margin-left: -80%;
+    font-size: 1.2rem;
+}
+.fantasy>button:nth-child(7){
+    margin-top: 3%;
+    margin-left: -75%;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+}
+.fantasy>button:nth-child(8){
+    margin-top: 5%;
+    /* margin-left: -75%; */
+    /* font-size: 1.2rem; */
+    position: absolute;
+    margin-left: 2%;
+    background-color: transparent;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+
+
+

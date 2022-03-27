@@ -1,0 +1,42 @@
+maxsum
+function runProgram(input) {
+    input = input.trim().split("\n");
+    var N = +input[0]
+    var arr = input[1].trim().split(" ").map(Number).sort((a,b) => {return a-b});
+    
+     var sum = 0;
+     for(var i=0;i<N;i++){
+         sum=sum+arr[i]*i
+     }
+     console.log(sum)
+   }
+
+
+   mall 
+   function logic(arr1,arr2,size){
+           var count=0
+       for(var i=0;i<arr1.length;i++){
+           if(arr1[i+1]<=arr2[i]){
+               count++
+           }
+           
+       }
+       if(count<size){console.log("Possible")}
+       else{console.log("Not Possible");}
+       }
+
+//neelam
+function logic(arr){
+           var sum=0;
+           var small = arr[0]
+           for(var i=0;i<arr.length;i++){
+             if(small<=arr[i]){
+                 sum=sum+small
+                }
+             else{
+                 small=arr[i]
+                 sum=sum+small
+                }
+           }
+           return sum
+       }

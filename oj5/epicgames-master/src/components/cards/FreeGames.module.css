@@ -1,0 +1,86 @@
+.container{
+    margin-top: 5%;
+    min-height: 500px;
+    border: 2px solid white;
+    width: 72%;
+    margin-left: 15%;
+    background-color: #424242;
+}
+
+.container>div{
+    display: flex;
+    flex-direction: row;
+}
+.container >div > img{
+    width: 5%;
+    cursor: pointer;
+    margin-left: 3.5%;
+}
+
+.container >div>p:nth-child(2){
+    font-size: 1.5rem;
+    /* color: red; */
+    margin-left: 5%;
+    margin-top: 2%;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+.container>div>p:nth-child(3){
+    margin-left: 65%;
+    /* font-size: 1.5rem; */
+
+    margin-top: 2%;
+    padding: 10px;
+    border: 1px solid white;
+    font-weight: 600;
+    color: white;
+
+    cursor: pointer;
+}
+.top{
+    /* border: 5px solid green; */
+}
+.top >img{
+    width: 550px;
+    height: 350px;
+}
+.top>p{
+    position: absolute;
+    /* background-color: blue; */
+    color: white;
+    margin-top: -2%;
+    width: 600px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    /* opacity: 0.5; */
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 50px */
+}
+.main >div{
+    margin: 50px;
+}
+.main>div:nth-child(2){
+    margin-top: 4.2%;
+    margin-left: -2%;
+}
+
+.bottom>p{
+    color: white;
+}
+
+.bottom>p:nth-child(1){
+    font-size: 1.5rem;
+    margin-top: 2%;
+
+}
+.bottom>p:nth-child(2){
+    /* font-size: 1.5rem; */
+}
